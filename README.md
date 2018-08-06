@@ -13,7 +13,10 @@ Scancard 工程扫描识别身份证、银行卡功能,返回卡片信息和图�
 * 3、xcode8、xcode9上边编译可能会遇到arm64错误，可尝试关闭build setting里边的Enable Testability ； 
 * 4、在控制器中设置代理方法扫描结果的代理方法
  > //成功扫描成功了身份证
- >> - (void)idCardScanSuccessWithModel:(XLScanResultModel *)idCardModel；
+ >>  - -(void)idCardScanSuccessWithModel:(XLScanResultModel *)idCardModel；
 
 > //成功扫描了银行卡
->> - (void)bankCardScanSuccessWithModel:(XLScanResultModel *)bankCardModel
+>>  - -(void)bankCardScanSuccessWithModel:(XLScanResultModel *)bankCardModel
+
+*****
+如果文章对你 有帮助 请点个 star
