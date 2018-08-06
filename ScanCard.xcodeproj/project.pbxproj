@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		052D103E2114265D00C5E883 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 052D103D2114265D00C5E883 /* AppDelegate.m */; };
+		052D10412114265D00C5E883 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 052D10402114265D00C5E883 /* ViewController.m */; };
+		052D10442114265D00C5E883 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 052D10422114265D00C5E883 /* Main.storyboard */; };
+		052D10462114265E00C5E883 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 052D10452114265E00C5E883 /* Assets.xcassets */; };
+		052D10492114265E00C5E883 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 052D10472114265E00C5E883 /* LaunchScreen.storyboard */; };
+		052D104C2114265E00C5E883 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 052D104B2114265E00C5E883 /* main.m */; };
+		052D108121142BB000C5E883 /* XLScanManagerInitialize.m in Sources */ = {isa = PBXBuildFile; fileRef = 052D105A21142BAF00C5E883 /* XLScanManagerInitialize.m */; };
+		052D108221142BB000C5E883 /* XLScanResultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 052D105B21142BAF00C5E883 /* XLScanResultModel.m */; };
+		052D108321142BB000C5E883 /* BankCardSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 052D105C21142BAF00C5E883 /* BankCardSearch.m */; };
+		052D108421142BB000C5E883 /* RectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 052D105D21142BAF00C5E883 /* RectManager.m */; };
+		052D108521142BB000C5E883 /* UIImage+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 052D105E21142BAF00C5E883 /* UIImage+Extend.m */; };
+		052D108621142BB000C5E883 /* XLScanBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 052D105F21142BAF00C5E883 /* XLScanBaseManager.m */; };
+		052D108721142BB000C5E883 /* XLScanManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 052D106021142BAF00C5E883 /* XLScanManager.m */; };
+		052D108821142BB000C5E883 /* XLScanManagerControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 052D106121142BAF00C5E883 /* XLScanManagerControl.m */; };
+		052D108921142BB000C5E883 /* XLIDScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 052D106721142BB000C5E883 /* XLIDScanViewController.m */; };
+		052D108A21142BB000C5E883 /* XLScanBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 052D106821142BB000C5E883 /* XLScanBaseViewController.m */; };
+		052D108B21142BB000C5E883 /* XLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 052D106921142BB000C5E883 /* XLBaseViewController.m */; };
+		052D108C21142BB000C5E883 /* XLBankScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 052D106B21142BB000C5E883 /* XLBankScanViewController.m */; };
+		052D108D21142BB000C5E883 /* UIColor+expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = 052D106E21142BB000C5E883 /* UIColor+expanded.m */; };
+		052D108E21142BB000C5E883 /* libexidcardios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 052D107121142BB000C5E883 /* libexidcardios.a */; };
+		052D108F21142BB000C5E883 /* zocr0.lib in Resources */ = {isa = PBXBuildFile; fileRef = 052D107321142BB000C5E883 /* zocr0.lib */; };
+		052D109021142BB000C5E883 /* libbankcard.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 052D107A21142BB000C5E883 /* libbankcard.a */; };
+		052D109121142BB000C5E883 /* OverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 052D107E21142BB000C5E883 /* OverlayView.m */; };
+		052D109221142BB000C5E883 /* IDOverLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 052D107F21142BB000C5E883 /* IDOverLayerView.m */; };
+		17B988D112C568CE64E4B388 /* libPods-ScanCard.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5158CBFE530DA026B92B65C3 /* libPods-ScanCard.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		052D10392114265D00C5E883 /* ScanCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScanCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		052D103C2114265D00C5E883 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		052D103D2114265D00C5E883 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		052D103F2114265D00C5E883 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		052D10402114265D00C5E883 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		052D10432114265D00C5E883 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		052D10452114265E00C5E883 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		052D10482114265E00C5E883 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		052D104A2114265E00C5E883 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		052D104B2114265E00C5E883 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		052D105521142BAF00C5E883 /* RectManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RectManager.h; sourceTree = "<group>"; };
+		052D105621142BAF00C5E883 /* UIImage+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extend.h"; sourceTree = "<group>"; };
+		052D105721142BAF00C5E883 /* XLScanManagerControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLScanManagerControl.h; sourceTree = "<group>"; };
+		052D105821142BAF00C5E883 /* XLScanManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLScanManager.h; sourceTree = "<group>"; };
+		052D105921142BAF00C5E883 /* XLScanBaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLScanBaseManager.h; sourceTree = "<group>"; };
+		052D105A21142BAF00C5E883 /* XLScanManagerInitialize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLScanManagerInitialize.m; sourceTree = "<group>"; };
+		052D105B21142BAF00C5E883 /* XLScanResultModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLScanResultModel.m; sourceTree = "<group>"; };
+		052D105C21142BAF00C5E883 /* BankCardSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BankCardSearch.m; sourceTree = "<group>"; };
+		052D105D21142BAF00C5E883 /* RectManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RectManager.m; sourceTree = "<group>"; };
+		052D105E21142BAF00C5E883 /* UIImage+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extend.m"; sourceTree = "<group>"; };
+		052D105F21142BAF00C5E883 /* XLScanBaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLScanBaseManager.m; sourceTree = "<group>"; };
+		052D106021142BAF00C5E883 /* XLScanManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLScanManager.m; sourceTree = "<group>"; };
+		052D106121142BAF00C5E883 /* XLScanManagerControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLScanManagerControl.m; sourceTree = "<group>"; };
+		052D106221142BAF00C5E883 /* BankCardSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BankCardSearch.h; sourceTree = "<group>"; };
+		052D106321142BAF00C5E883 /* XLScanResultModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLScanResultModel.h; sourceTree = "<group>"; };
+		052D106421142BAF00C5E883 /* XLScanManagerInitialize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLScanManagerInitialize.h; sourceTree = "<group>"; };
+		052D106621142BB000C5E883 /* XLBankScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLBankScanViewController.h; sourceTree = "<group>"; };
+		052D106721142BB000C5E883 /* XLIDScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLIDScanViewController.m; sourceTree = "<group>"; };
+		052D106821142BB000C5E883 /* XLScanBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLScanBaseViewController.m; sourceTree = "<group>"; };
+		052D106921142BB000C5E883 /* XLBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLBaseViewController.m; sourceTree = "<group>"; };
+		052D106A21142BB000C5E883 /* UIColor+expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+expanded.h"; sourceTree = "<group>"; };
+		052D106B21142BB000C5E883 /* XLBankScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLBankScanViewController.m; sourceTree = "<group>"; };
+		052D106C21142BB000C5E883 /* XLScanBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLScanBaseViewController.h; sourceTree = "<group>"; };
+		052D106D21142BB000C5E883 /* XLIDScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLIDScanViewController.h; sourceTree = "<group>"; };
+		052D106E21142BB000C5E883 /* UIColor+expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+expanded.m"; sourceTree = "<group>"; };
+		052D106F21142BB000C5E883 /* XLBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLBaseViewController.h; sourceTree = "<group>"; };
+		052D107121142BB000C5E883 /* libexidcardios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libexidcardios.a; sourceTree = "<group>"; };
+		052D107321142BB000C5E883 /* zocr0.lib */ = {isa = PBXFileReference; lastKnownFileType = file; path = zocr0.lib; sourceTree = "<group>"; };
+		052D107421142BB000C5E883 /* commondef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = commondef.h; sourceTree = "<group>"; };
+		052D107521142BB000C5E883 /* excards.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = excards.h; sourceTree = "<group>"; };
+		052D107721142BB000C5E883 /* exbankcard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = exbankcard.h; sourceTree = "<group>"; };
+		052D107921142BB000C5E883 /* exbankcardcore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = exbankcardcore.h; sourceTree = "<group>"; };
+		052D107A21142BB000C5E883 /* libbankcard.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libbankcard.a; sourceTree = "<group>"; };
+		052D107B21142BB000C5E883 /* BankCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BankCard.h; sourceTree = "<group>"; };
+		052D107D21142BB000C5E883 /* IDOverLayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDOverLayerView.h; sourceTree = "<group>"; };
+		052D107E21142BB000C5E883 /* OverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayView.m; sourceTree = "<group>"; };
+		052D107F21142BB000C5E883 /* IDOverLayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDOverLayerView.m; sourceTree = "<group>"; };
+		052D108021142BB000C5E883 /* OverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayView.h; sourceTree = "<group>"; };
+		052D1093211435FB00C5E883 /* libReactiveObjC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReactiveObjC.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		072C5E2C866DA510F83635F3 /* Pods-ScanCard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScanCard.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScanCard/Pods-ScanCard.release.xcconfig"; sourceTree = "<group>"; };
+		5158CBFE530DA026B92B65C3 /* libPods-ScanCard.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ScanCard.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92B051702FAAC5131E1035C7 /* Pods-ScanCard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScanCard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScanCard/Pods-ScanCard.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		052D10362114265D00C5E883 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				052D108E21142BB000C5E883 /* libexidcardios.a in Frameworks */,
+				052D109021142BB000C5E883 /* libbankcard.a in Frameworks */,
+				17B988D112C568CE64E4B388 /* libPods-ScanCard.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		052D10302114265D00C5E883 = {
+			isa = PBXGroup;
+			children = (
+				052D103B2114265D00C5E883 /* ScanCard */,
+				052D103A2114265D00C5E883 /* Products */,
+				C1D325AD780FF832A0FE58B6 /* Pods */,
+				45E1A328F66DE07A7D1CDF2D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		052D103A2114265D00C5E883 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				052D10392114265D00C5E883 /* ScanCard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		052D103B2114265D00C5E883 /* ScanCard */ = {
+			isa = PBXGroup;
+			children = (
+				052D105221142BAF00C5E883 /* lib */,
+				052D103C2114265D00C5E883 /* AppDelegate.h */,
+				052D103D2114265D00C5E883 /* AppDelegate.m */,
+				052D103F2114265D00C5E883 /* ViewController.h */,
+				052D10402114265D00C5E883 /* ViewController.m */,
+				052D10422114265D00C5E883 /* Main.storyboard */,
+				052D10452114265E00C5E883 /* Assets.xcassets */,
+				052D10472114265E00C5E883 /* LaunchScreen.storyboard */,
+				052D104A2114265E00C5E883 /* Info.plist */,
+				052D104B2114265E00C5E883 /* main.m */,
+			);
+			path = ScanCard;
+			sourceTree = "<group>";
+		};
+		052D105221142BAF00C5E883 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				052D105321142BAF00C5E883 /* IDAndBankCard */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		052D105321142BAF00C5E883 /* IDAndBankCard */ = {
+			isa = PBXGroup;
+			children = (
+				052D105421142BAF00C5E883 /* Tools */,
+				052D106521142BB000C5E883 /* ScanVc */,
+				052D107021142BB000C5E883 /* libexidcard */,
+				052D107621142BB000C5E883 /* bank_io */,
+				052D107C21142BB000C5E883 /* Views */,
+			);
+			path = IDAndBankCard;
+			sourceTree = "<group>";
+		};
+		052D105421142BAF00C5E883 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				052D105621142BAF00C5E883 /* UIImage+Extend.h */,
+				052D105E21142BAF00C5E883 /* UIImage+Extend.m */,
+				052D105721142BAF00C5E883 /* XLScanManagerControl.h */,
+				052D106121142BAF00C5E883 /* XLScanManagerControl.m */,
+				052D105921142BAF00C5E883 /* XLScanBaseManager.h */,
+				052D105F21142BAF00C5E883 /* XLScanBaseManager.m */,
+				052D106321142BAF00C5E883 /* XLScanResultModel.h */,
+				052D105B21142BAF00C5E883 /* XLScanResultModel.m */,
+				052D106221142BAF00C5E883 /* BankCardSearch.h */,
+				052D105C21142BAF00C5E883 /* BankCardSearch.m */,
+				052D105521142BAF00C5E883 /* RectManager.h */,
+				052D105D21142BAF00C5E883 /* RectManager.m */,
+				052D105821142BAF00C5E883 /* XLScanManager.h */,
+				052D106021142BAF00C5E883 /* XLScanManager.m */,
+				052D106421142BAF00C5E883 /* XLScanManagerInitialize.h */,
+				052D105A21142BAF00C5E883 /* XLScanManagerInitialize.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		052D106521142BB000C5E883 /* ScanVc */ = {
+			isa = PBXGroup;
+			children = (
+				052D106621142BB000C5E883 /* XLBankScanViewController.h */,
+				052D106B21142BB000C5E883 /* XLBankScanViewController.m */,
+				052D106D21142BB000C5E883 /* XLIDScanViewController.h */,
+				052D106721142BB000C5E883 /* XLIDScanViewController.m */,
+				052D106C21142BB000C5E883 /* XLScanBaseViewController.h */,
+				052D106821142BB000C5E883 /* XLScanBaseViewController.m */,
+				052D106A21142BB000C5E883 /* UIColor+expanded.h */,
+				052D106E21142BB000C5E883 /* UIColor+expanded.m */,
+				052D106F21142BB000C5E883 /* XLBaseViewController.h */,
+				052D106921142BB000C5E883 /* XLBaseViewController.m */,
+			);
+			path = ScanVc;
+			sourceTree = "<group>";
+		};
+		052D107021142BB000C5E883 /* libexidcard */ = {
+			isa = PBXGroup;
+			children = (
+				052D107121142BB000C5E883 /* libexidcardios.a */,
+				052D107221142BB000C5E883 /* dicts */,
+				052D107421142BB000C5E883 /* commondef.h */,
+				052D107521142BB000C5E883 /* excards.h */,
+			);
+			path = libexidcard;
+			sourceTree = "<group>";
+		};
+		052D107221142BB000C5E883 /* dicts */ = {
+			isa = PBXGroup;
+			children = (
+				052D107321142BB000C5E883 /* zocr0.lib */,
+			);
+			path = dicts;
+			sourceTree = "<group>";
+		};
+		052D107621142BB000C5E883 /* bank_io */ = {
+			isa = PBXGroup;
+			children = (
+				052D107721142BB000C5E883 /* exbankcard.h */,
+				052D107821142BB000C5E883 /* exbankcardcore */,
+				052D107B21142BB000C5E883 /* BankCard.h */,
+			);
+			path = bank_io;
+			sourceTree = "<group>";
+		};
+		052D107821142BB000C5E883 /* exbankcardcore */ = {
+			isa = PBXGroup;
+			children = (
+				052D107921142BB000C5E883 /* exbankcardcore.h */,
+				052D107A21142BB000C5E883 /* libbankcard.a */,
+			);
+			path = exbankcardcore;
+			sourceTree = "<group>";
+		};
+		052D107C21142BB000C5E883 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				052D107D21142BB000C5E883 /* IDOverLayerView.h */,
+				052D107E21142BB000C5E883 /* OverlayView.m */,
+				052D107F21142BB000C5E883 /* IDOverLayerView.m */,
+				052D108021142BB000C5E883 /* OverlayView.h */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		45E1A328F66DE07A7D1CDF2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				052D1093211435FB00C5E883 /* libReactiveObjC.a */,
+				5158CBFE530DA026B92B65C3 /* libPods-ScanCard.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1D325AD780FF832A0FE58B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				92B051702FAAC5131E1035C7 /* Pods-ScanCard.debug.xcconfig */,
+				072C5E2C866DA510F83635F3 /* Pods-ScanCard.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		052D10382114265D00C5E883 /* ScanCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 052D104F2114265E00C5E883 /* Build configuration list for PBXNativeTarget "ScanCard" */;
+			buildPhases = (
+				E08BEFE70891560EC4B09A9E /* [CP] Check Pods Manifest.lock */,
+				052D10352114265D00C5E883 /* Sources */,
+				052D10362114265D00C5E883 /* Frameworks */,
+				052D10372114265D00C5E883 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScanCard;
+			productName = ScanCard;
+			productReference = 052D10392114265D00C5E883 /* ScanCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		052D10312114265D00C5E883 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = xianliangDev;
+				TargetAttributes = {
+					052D10382114265D00C5E883 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 052D10342114265D00C5E883 /* Build configuration list for PBXProject "ScanCard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 052D10302114265D00C5E883;
+			productRefGroup = 052D103A2114265D00C5E883 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				052D10382114265D00C5E883 /* ScanCard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		052D10372114265D00C5E883 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				052D108F21142BB000C5E883 /* zocr0.lib in Resources */,
+				052D10492114265E00C5E883 /* LaunchScreen.storyboard in Resources */,
+				052D10462114265E00C5E883 /* Assets.xcassets in Resources */,
+				052D10442114265D00C5E883 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E08BEFE70891560EC4B09A9E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ScanCard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		052D10352114265D00C5E883 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				052D108A21142BB000C5E883 /* XLScanBaseViewController.m in Sources */,
+				052D108721142BB000C5E883 /* XLScanManager.m in Sources */,
+				052D108621142BB000C5E883 /* XLScanBaseManager.m in Sources */,
+				052D108221142BB000C5E883 /* XLScanResultModel.m in Sources */,
+				052D10412114265D00C5E883 /* ViewController.m in Sources */,
+				052D108B21142BB000C5E883 /* XLBaseViewController.m in Sources */,
+				052D108421142BB000C5E883 /* RectManager.m in Sources */,
+				052D104C2114265E00C5E883 /* main.m in Sources */,
+				052D108321142BB000C5E883 /* BankCardSearch.m in Sources */,
+				052D108C21142BB000C5E883 /* XLBankScanViewController.m in Sources */,
+				052D108821142BB000C5E883 /* XLScanManagerControl.m in Sources */,
+				052D109221142BB000C5E883 /* IDOverLayerView.m in Sources */,
+				052D108921142BB000C5E883 /* XLIDScanViewController.m in Sources */,
+				052D108121142BB000C5E883 /* XLScanManagerInitialize.m in Sources */,
+				052D103E2114265D00C5E883 /* AppDelegate.m in Sources */,
+				052D108D21142BB000C5E883 /* UIColor+expanded.m in Sources */,
+				052D108521142BB000C5E883 /* UIImage+Extend.m in Sources */,
+				052D109121142BB000C5E883 /* OverlayView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		052D10422114265D00C5E883 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				052D10432114265D00C5E883 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		052D10472114265E00C5E883 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				052D10482114265E00C5E883 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		052D104D2114265E00C5E883 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		052D104E2114265E00C5E883 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		052D10502114265E00C5E883 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92B051702FAAC5131E1035C7 /* Pods-ScanCard.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WJ4EB792EP;
+				ENABLE_BITCODE = NO;
+				ENABLE_TESTABILITY = NO;
+				INFOPLIST_FILE = ScanCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ScanCard/lib/IDAndBankCard/libexidcard",
+					"$(PROJECT_DIR)/ScanCard/lib/IDAndBankCard/bank_io/exbankcardcore",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinrongweb.ScanCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		052D10512114265E00C5E883 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 072C5E2C866DA510F83635F3 /* Pods-ScanCard.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WJ4EB792EP;
+				ENABLE_BITCODE = NO;
+				ENABLE_TESTABILITY = NO;
+				INFOPLIST_FILE = ScanCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ScanCard/lib/IDAndBankCard/libexidcard",
+					"$(PROJECT_DIR)/ScanCard/lib/IDAndBankCard/bank_io/exbankcardcore",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinrongweb.ScanCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		052D10342114265D00C5E883 /* Build configuration list for PBXProject "ScanCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				052D104D2114265E00C5E883 /* Debug */,
+				052D104E2114265E00C5E883 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		052D104F2114265E00C5E883 /* Build configuration list for PBXNativeTarget "ScanCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				052D10502114265E00C5E883 /* Debug */,
+				052D10512114265E00C5E883 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 052D10312114265D00C5E883 /* Project object */;
+}

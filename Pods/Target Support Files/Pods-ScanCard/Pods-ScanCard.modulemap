@@ -1,0 +1,6 @@
+module Pods_ScanCard {
+  umbrella header "Pods-ScanCard-umbrella.h"
+
+  export *
+  module * { export * }
+}

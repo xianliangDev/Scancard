@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="jso-dw-Eqo">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="dL7-LR-KDe">
+            <objects>
+                <navigationController id="jso-dw-Eqo" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="JYa-2K-5B4">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="x1c-di-75N"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AD9-os-dSC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1308" y="315"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7cP-fv-XGV">
+                                <rect key="frame" x="113" y="150" width="135" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.96470588239999999" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="ioE-WI-rqa"/>
+                                </constraints>
+                                <state key="normal" title="身份证扫描"/>
+                                <connections>
+                                    <action selector="idCardScan:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ykc-CP-EPy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5ms-xz-FXr">
+                                <rect key="frame" x="113" y="330" width="135" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.96470588239999999" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="5U1-yU-t47"/>
+                                </constraints>
+                                <state key="normal" title="银行卡扫描"/>
+                                <connections>
+                                    <action selector="bankCardScan:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PuO-b7-jxj"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Eni-sV-RFx">
+                                <rect key="frame" x="47" y="188" width="282" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zfb-Aq-gAC">
+                                <rect key="frame" x="39" y="376" width="282" height="141"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="141" id="7f4-RT-iZ1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7cP-fv-XGV" secondAttribute="trailing" constant="127" id="0Op-qN-h8C"/>
+                            <constraint firstItem="Zfb-Aq-gAC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="39" id="2qA-Z9-3ez"/>
+                            <constraint firstItem="5ms-xz-FXr" firstAttribute="top" secondItem="Eni-sV-RFx" secondAttribute="bottom" constant="14" id="6Dc-3h-lBY"/>
+                            <constraint firstItem="5ms-xz-FXr" firstAttribute="top" secondItem="7cP-fv-XGV" secondAttribute="bottom" constant="150" id="BGQ-f4-a11"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Eni-sV-RFx" secondAttribute="trailing" constant="46" id="Jsr-Bj-QgI"/>
+                            <constraint firstItem="7cP-fv-XGV" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="86" id="LNB-2a-bYC"/>
+                            <constraint firstItem="5ms-xz-FXr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="113" id="NoW-aX-wsV"/>
+                            <constraint firstItem="Eni-sV-RFx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="47" id="ZVe-he-YhG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5ms-xz-FXr" secondAttribute="trailing" constant="127" id="aiQ-ce-T31"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Zfb-Aq-gAC" secondAttribute="trailing" constant="54" id="csD-wa-dKi"/>
+                            <constraint firstItem="7cP-fv-XGV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="113" id="d01-z8-fm9"/>
+                            <constraint firstItem="Eni-sV-RFx" firstAttribute="top" secondItem="7cP-fv-XGV" secondAttribute="bottom" constant="8" id="nUm-Qn-jfn"/>
+                            <constraint firstItem="Zfb-Aq-gAC" firstAttribute="top" secondItem="5ms-xz-FXr" secondAttribute="bottom" constant="6" id="npy-PO-Ajg"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="inJ-eu-lyf"/>
+                    <connections>
+                        <outlet property="bankCardInfoView" destination="Zfb-Aq-gAC" id="5n1-xe-8ot"/>
+                        <outlet property="idCardInfoView" destination="Eni-sV-RFx" id="Akn-2h-wIi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140" y="106.59670164917542"/>
+        </scene>
+    </scenes>
+</document>
